@@ -1,0 +1,70 @@
+<!--1) რა არის main axis flexbox-ში?
+
+Main axis არის მთავარი მიმართულება, საითაც ელემენტები ლაგდება (ჰორიზონტალურად ან ვერტიკალურად).
+
+2) რა არის cross axis?
+
+Cross axis არის მეორეული მიმართულება, რომელიც არის main axis-ის საპირისპირო მიმართულება.
+
+3) რა არის flex-direction და რას აკეთებს?
+
+flex-direction განსაზღვრავს ელემენტები ჰორიზონტალურად დალაგდება თუ ვერტიკალურად.
+
+4) რას გააკეთებს flex-direction: row;
+
+ელემენტები დალაგდება ჰორიზონტალურად (ერთ ხაზზე).
+
+5) რას გააკეთებს flex-direction: column;
+
+ელემენტები დალაგდება ვერტიკალურად (ზემოდან ქვემოთ).
+
+6) როგორ გადავიტანოთ ელემენტები მარჯვნივ?
+justify-content: flex-end;
+
+7) როგორ გადავიტანოთ ელემენტები მარცხნივ?
+justify-content: flex-start;
+
+8) 3 ელემენტი ჰორიზონტალურად
+<div class="container">
+  <div>1</div>
+  <div>2</div>
+  <div>3</div>
+</div>
+
+.container {
+  display: flex;
+}
+
+9) 3 ელემენტი გაცენტრებული
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+10) ელემენტებს შორის თანაბარი დაშორება
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+11) სამივე ერთ ხაზზე (ვერტიკალურად გასწორებული)
+.container {
+  display: flex;
+  align-items: center;
+}
+
+12) 5 დიდი ელემენტი და არ იყოს მიჭუჭყული
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+13) 3 ელემენტი ვერტიკალურად და შუაში
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+-->

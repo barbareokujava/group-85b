@@ -1,0 +1,44 @@
+<!--Inline CSS – სტილი წერია პირდაპირ ელემენტში
+
+Internal CSS – სტილი წერია <style> თეგში
+
+External CSS – სტილი წერია ცალკე .css ფაილში-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+ <title>CSS მაგალითები</title>
+
+    <!-- Internal CSS -->
+    <style>
+        .internal {
+            color: green;
+        }
+    </style>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+
+<body>
+       <!-- Inline CSS -->
+    <p style="color: red;">ეს არის inline CSS პარაგრაფი</p>
+
+    <!-- Internal CSS -->
+    <p class="internal">ეს არის internal CSS პარაგრაფი</p>
+
+    <!-- External CSS -->
+    <p class="external">ეს არის external CSS პარაგრაფი</p>
+
+    <a href="#" style="color: red; background-color: yellow; font-family: Arial;">
+    ეს არის ლინკი
+</a>
+<h1 style="text-align: center;">სათაური შუაში</h1>
+<h2 style="text-align: right;">სათაური მარჯვნივ</h2>
+
+</body>
+</html>
+
