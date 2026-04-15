@@ -1,0 +1,99 @@
+<!--<article> – სტატია / პოსტი
+<aside> – გვერდითი ინფორმაცია
+<main> – მთავარი შინაარსი
+<nav> – მენიუ
+<footer> – ქვედა ნაწილი
+<header> – ზედა ნაწილი--> 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background: darkblue;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+.nav {
+    background: red;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+.hero {
+    background: lightblue;
+    color: white;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+}
+
+.main {
+    background: gray;
+    color: white;
+    flex: 3;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.side {
+    flex: 1;
+}
+
+.image {
+    background: lightgreen;
+    height: 125px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.extra {
+    background: lightblue;
+    height: 125px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner {
+    background: yellow;
+    text-align: center;
+    padding: 20px;
+}
+  </style>  
+</body>
+<div class="header">Header</div>
+<div class="nav">Menu</div>
+
+<div class="hero">Hero</div>
+
+<div class="container">
+    <div class="main">Main</div>
+    <div class="side">
+        <div class="image">Image</div>
+        <div class="extra">Extra</div>
+    </div>
+</div>
+
+<div class="banner">Banner</div>
+
+</html>
