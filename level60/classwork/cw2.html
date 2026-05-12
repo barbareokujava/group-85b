@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+  .box {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    transition: 2s;;
+  }
+@keyframes animacia {
+    0% {
+      transform: translateY(0) translateX(0);
+      width: 100px;
+      height: 100px;
+    }
+
+    25% {
+      transform: translateY(200px);
+    }
+
+    50% {
+      transform: translate(500px, 200px);
+    }
+
+    75% {
+      transform: translate(500px, 200px) rotate(360deg);
+      width: 150px;
+      height: 150px;
+    }
+
+    100% {
+      transform: translateY(0) translateX(0);
+      width: 100px;
+      height: 100px;  /*oh my days bro*/
+    }
+}
+</style>
+</head>
+<body>
+    <div class="box"></div>
+</body>
+</html>
