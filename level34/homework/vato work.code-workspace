@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../../vato work"
+		},
+		{
+			"path": "../.."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "GOA main"
+	}
+}
