@@ -1,0 +1,1 @@
+#elementis gasacocxelbad gamoiyeneba magalitad peris shecva datrialeba da ase shemdeg

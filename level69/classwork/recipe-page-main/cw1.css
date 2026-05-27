@@ -1,0 +1,120 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&family=Young+Serif&display=swap');
+
+body {
+    background-color: #f3e5d8;
+    margin: 0;
+    padding: 60px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    font-family: 'Outfit', sans-serif;
+    color: hsl(30, 10%, 34%);
+}
+
+.recipe-card {
+    background-color: #ffffff;
+    max-width: 650px;
+    width: 100%;
+    padding: 40px;
+    border-radius: 24px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.recipe-image {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    margin-bottom: 35px;
+}
+
+h1 {
+    font-family: 'Young Serif', serif;
+    color: hsl(24, 5%, 18%);
+    font-size: 36px;
+    margin: 0 0 15px 0;
+    font-weight: 400;
+}
+
+.teqsti {
+    color: hsl(30, 10%, 34%);
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 0 0 25px 0;
+}
+
+.gamzadeba{
+    background-color:gray(330, 100%, 98%);
+    padding: 25px;
+    border-radius: 12px;
+    margin-bottom: 30px;
+}
+
+
+.gamzadeba h3 {
+    color: hsl(332, 51%, 32%);
+    margin: 0 0 12px 0;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+h2 {
+    font-family: 'Young Serif', serif;
+    color: hsl(14, 45%, 36%);
+    font-size: 26px;
+    margin: 25px 0 15px 0;
+    font-weight: 400;
+}
+
+ul, ol {
+    padding-left: 20px;
+    margin: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    line-height: 1.5;
+    font-size: 15px;
+    padding-left: 8px;
+}
+
+ul li::marker {
+    color: hsl(14, 45%, 36%);
+}
+
+ol li::marker {
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid hsl(30, 18%, 85%);
+    margin: 30px 0;
+}
+
+.nutrition-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+.nutrition-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 20px;
+    border-bottom: 1px solid hsl(30, 18%, 85%);
+    font-size: 15px;
+}
+
+.nutrition-row:last-child {
+    border-bottom: none;
+}
+
+.stat-number {
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
