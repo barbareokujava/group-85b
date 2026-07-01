@@ -1,0 +1,42 @@
+li::before{
+    content: "barbare";
+    color:purple;
+    background-color: black;
+}
+
+li::after{
+    content: "okujava";
+    color: aqua;
+    background: peru;
+}
+
+li::first-letter{
+    color: cornflowerblue;
+}
+
+
+li::first-letter{
+    color: aquamarine;
+}
+
+p::first-letter{
+    color: navy;
+}
+
+p::selection{
+    background-color: blueviolet;
+    color:red
+}
+
+input::placeholder{
+    color: yellow;
+    background-color: black;
+}
+
+li::marker{
+    color: orange;
+}
+
+dialog::backdrop{
+    background-color: lightcoral;
+}

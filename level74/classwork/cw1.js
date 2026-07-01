@@ -72,6 +72,6 @@ switch (Level) {
     console.log("shen xar veterani");
     break;
 
-  default:
+  default:hw1
     console.log("arasworia");
 }
